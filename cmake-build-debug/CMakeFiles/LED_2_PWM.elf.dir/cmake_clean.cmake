@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/LED_2_PWM.elf.dir/Core/Src/exit_callback.cpp.obj"
+  "CMakeFiles/LED_2_PWM.elf.dir/Core/Src/exit_callback.cpp.obj.d"
   "CMakeFiles/LED_2_PWM.elf.dir/Core/Src/gpio.c.obj"
   "CMakeFiles/LED_2_PWM.elf.dir/Core/Src/gpio.c.obj.d"
   "CMakeFiles/LED_2_PWM.elf.dir/Core/Src/main.c.obj"
@@ -46,8 +48,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj.d"
   "CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
   "CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj.d"
-  "CMakeFiles/LED_2_PWM.elf.dir/callback.cpp.obj"
-  "CMakeFiles/LED_2_PWM.elf.dir/callback.cpp.obj.d"
   "LED_2_PWM.elf"
   "LED_2_PWM.elf.manifest"
   "LED_2_PWM.elf.pdb"

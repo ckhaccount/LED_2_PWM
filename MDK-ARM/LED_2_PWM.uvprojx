@@ -400,6 +400,11 @@
               <FilePath>..\callback.cpp</FilePath>
             </File>
             <File>
+              <FileName>exit_callback.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\Core\Src\exit_callback.cpp</FilePath>
+            </File>
+            <File>
               <FileName>main.c</FileName>
               <FileType>1</FileType>
               <FilePath>../Core/Src/main.c</FilePath>

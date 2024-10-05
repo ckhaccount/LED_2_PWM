@@ -68,10 +68,24 @@ include CMakeFiles/LED_2_PWM.elf.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/LED_2_PWM.elf.dir/flags.make
 
+CMakeFiles/LED_2_PWM.elf.dir/Core/Src/exit_callback.cpp.obj: CMakeFiles/LED_2_PWM.elf.dir/flags.make
+CMakeFiles/LED_2_PWM.elf.dir/Core/Src/exit_callback.cpp.obj: D:/STM32Project/LED_2_PWM/Core/Src/exit_callback.cpp
+CMakeFiles/LED_2_PWM.elf.dir/Core/Src/exit_callback.cpp.obj: CMakeFiles/LED_2_PWM.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Project\LED_2_PWM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LED_2_PWM.elf.dir/Core/Src/exit_callback.cpp.obj"
+	D:\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LED_2_PWM.elf.dir/Core/Src/exit_callback.cpp.obj -MF CMakeFiles\LED_2_PWM.elf.dir\Core\Src\exit_callback.cpp.obj.d -o CMakeFiles\LED_2_PWM.elf.dir\Core\Src\exit_callback.cpp.obj -c D:\STM32Project\LED_2_PWM\Core\Src\exit_callback.cpp
+
+CMakeFiles/LED_2_PWM.elf.dir/Core/Src/exit_callback.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LED_2_PWM.elf.dir/Core/Src/exit_callback.cpp.i"
+	D:\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\STM32Project\LED_2_PWM\Core\Src\exit_callback.cpp > CMakeFiles\LED_2_PWM.elf.dir\Core\Src\exit_callback.cpp.i
+
+CMakeFiles/LED_2_PWM.elf.dir/Core/Src/exit_callback.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LED_2_PWM.elf.dir/Core/Src/exit_callback.cpp.s"
+	D:\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\STM32Project\LED_2_PWM\Core\Src\exit_callback.cpp -o CMakeFiles\LED_2_PWM.elf.dir\Core\Src\exit_callback.cpp.s
+
 CMakeFiles/LED_2_PWM.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/LED_2_PWM.elf.dir/flags.make
 CMakeFiles/LED_2_PWM.elf.dir/Core/Src/gpio.c.obj: D:/STM32Project/LED_2_PWM/Core/Src/gpio.c
 CMakeFiles/LED_2_PWM.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/LED_2_PWM.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Project\LED_2_PWM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/LED_2_PWM.elf.dir/Core/Src/gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Project\LED_2_PWM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/LED_2_PWM.elf.dir/Core/Src/gpio.c.obj"
 	D:\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LED_2_PWM.elf.dir/Core/Src/gpio.c.obj -MF CMakeFiles\LED_2_PWM.elf.dir\Core\Src\gpio.c.obj.d -o CMakeFiles\LED_2_PWM.elf.dir\Core\Src\gpio.c.obj -c D:\STM32Project\LED_2_PWM\Core\Src\gpio.c
 
 CMakeFiles/LED_2_PWM.elf.dir/Core/Src/gpio.c.i: cmake_force
@@ -85,7 +99,7 @@ CMakeFiles/LED_2_PWM.elf.dir/Core/Src/gpio.c.s: cmake_force
 CMakeFiles/LED_2_PWM.elf.dir/Core/Src/main.c.obj: CMakeFiles/LED_2_PWM.elf.dir/flags.make
 CMakeFiles/LED_2_PWM.elf.dir/Core/Src/main.c.obj: D:/STM32Project/LED_2_PWM/Core/Src/main.c
 CMakeFiles/LED_2_PWM.elf.dir/Core/Src/main.c.obj: CMakeFiles/LED_2_PWM.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Project\LED_2_PWM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/LED_2_PWM.elf.dir/Core/Src/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Project\LED_2_PWM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/LED_2_PWM.elf.dir/Core/Src/main.c.obj"
 	D:\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LED_2_PWM.elf.dir/Core/Src/main.c.obj -MF CMakeFiles\LED_2_PWM.elf.dir\Core\Src\main.c.obj.d -o CMakeFiles\LED_2_PWM.elf.dir\Core\Src\main.c.obj -c D:\STM32Project\LED_2_PWM\Core\Src\main.c
 
 CMakeFiles/LED_2_PWM.elf.dir/Core/Src/main.c.i: cmake_force
@@ -99,7 +113,7 @@ CMakeFiles/LED_2_PWM.elf.dir/Core/Src/main.c.s: cmake_force
 CMakeFiles/LED_2_PWM.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: CMakeFiles/LED_2_PWM.elf.dir/flags.make
 CMakeFiles/LED_2_PWM.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: D:/STM32Project/LED_2_PWM/Core/Src/stm32f4xx_hal_msp.c
 CMakeFiles/LED_2_PWM.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: CMakeFiles/LED_2_PWM.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Project\LED_2_PWM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/LED_2_PWM.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Project\LED_2_PWM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/LED_2_PWM.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj"
 	D:\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LED_2_PWM.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj -MF CMakeFiles\LED_2_PWM.elf.dir\Core\Src\stm32f4xx_hal_msp.c.obj.d -o CMakeFiles\LED_2_PWM.elf.dir\Core\Src\stm32f4xx_hal_msp.c.obj -c D:\STM32Project\LED_2_PWM\Core\Src\stm32f4xx_hal_msp.c
 
 CMakeFiles/LED_2_PWM.elf.dir/Core/Src/stm32f4xx_hal_msp.c.i: cmake_force
@@ -113,7 +127,7 @@ CMakeFiles/LED_2_PWM.elf.dir/Core/Src/stm32f4xx_hal_msp.c.s: cmake_force
 CMakeFiles/LED_2_PWM.elf.dir/Core/Src/stm32f4xx_it.c.obj: CMakeFiles/LED_2_PWM.elf.dir/flags.make
 CMakeFiles/LED_2_PWM.elf.dir/Core/Src/stm32f4xx_it.c.obj: D:/STM32Project/LED_2_PWM/Core/Src/stm32f4xx_it.c
 CMakeFiles/LED_2_PWM.elf.dir/Core/Src/stm32f4xx_it.c.obj: CMakeFiles/LED_2_PWM.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Project\LED_2_PWM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/LED_2_PWM.elf.dir/Core/Src/stm32f4xx_it.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Project\LED_2_PWM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/LED_2_PWM.elf.dir/Core/Src/stm32f4xx_it.c.obj"
 	D:\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LED_2_PWM.elf.dir/Core/Src/stm32f4xx_it.c.obj -MF CMakeFiles\LED_2_PWM.elf.dir\Core\Src\stm32f4xx_it.c.obj.d -o CMakeFiles\LED_2_PWM.elf.dir\Core\Src\stm32f4xx_it.c.obj -c D:\STM32Project\LED_2_PWM\Core\Src\stm32f4xx_it.c
 
 CMakeFiles/LED_2_PWM.elf.dir/Core/Src/stm32f4xx_it.c.i: cmake_force
@@ -127,7 +141,7 @@ CMakeFiles/LED_2_PWM.elf.dir/Core/Src/stm32f4xx_it.c.s: cmake_force
 CMakeFiles/LED_2_PWM.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/LED_2_PWM.elf.dir/flags.make
 CMakeFiles/LED_2_PWM.elf.dir/Core/Src/syscalls.c.obj: D:/STM32Project/LED_2_PWM/Core/Src/syscalls.c
 CMakeFiles/LED_2_PWM.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/LED_2_PWM.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Project\LED_2_PWM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/LED_2_PWM.elf.dir/Core/Src/syscalls.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Project\LED_2_PWM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/LED_2_PWM.elf.dir/Core/Src/syscalls.c.obj"
 	D:\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LED_2_PWM.elf.dir/Core/Src/syscalls.c.obj -MF CMakeFiles\LED_2_PWM.elf.dir\Core\Src\syscalls.c.obj.d -o CMakeFiles\LED_2_PWM.elf.dir\Core\Src\syscalls.c.obj -c D:\STM32Project\LED_2_PWM\Core\Src\syscalls.c
 
 CMakeFiles/LED_2_PWM.elf.dir/Core/Src/syscalls.c.i: cmake_force
@@ -141,7 +155,7 @@ CMakeFiles/LED_2_PWM.elf.dir/Core/Src/syscalls.c.s: cmake_force
 CMakeFiles/LED_2_PWM.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/LED_2_PWM.elf.dir/flags.make
 CMakeFiles/LED_2_PWM.elf.dir/Core/Src/sysmem.c.obj: D:/STM32Project/LED_2_PWM/Core/Src/sysmem.c
 CMakeFiles/LED_2_PWM.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/LED_2_PWM.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Project\LED_2_PWM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/LED_2_PWM.elf.dir/Core/Src/sysmem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Project\LED_2_PWM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/LED_2_PWM.elf.dir/Core/Src/sysmem.c.obj"
 	D:\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LED_2_PWM.elf.dir/Core/Src/sysmem.c.obj -MF CMakeFiles\LED_2_PWM.elf.dir\Core\Src\sysmem.c.obj.d -o CMakeFiles\LED_2_PWM.elf.dir\Core\Src\sysmem.c.obj -c D:\STM32Project\LED_2_PWM\Core\Src\sysmem.c
 
 CMakeFiles/LED_2_PWM.elf.dir/Core/Src/sysmem.c.i: cmake_force
@@ -155,7 +169,7 @@ CMakeFiles/LED_2_PWM.elf.dir/Core/Src/sysmem.c.s: cmake_force
 CMakeFiles/LED_2_PWM.elf.dir/Core/Src/system_stm32f4xx.c.obj: CMakeFiles/LED_2_PWM.elf.dir/flags.make
 CMakeFiles/LED_2_PWM.elf.dir/Core/Src/system_stm32f4xx.c.obj: D:/STM32Project/LED_2_PWM/Core/Src/system_stm32f4xx.c
 CMakeFiles/LED_2_PWM.elf.dir/Core/Src/system_stm32f4xx.c.obj: CMakeFiles/LED_2_PWM.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Project\LED_2_PWM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/LED_2_PWM.elf.dir/Core/Src/system_stm32f4xx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Project\LED_2_PWM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/LED_2_PWM.elf.dir/Core/Src/system_stm32f4xx.c.obj"
 	D:\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LED_2_PWM.elf.dir/Core/Src/system_stm32f4xx.c.obj -MF CMakeFiles\LED_2_PWM.elf.dir\Core\Src\system_stm32f4xx.c.obj.d -o CMakeFiles\LED_2_PWM.elf.dir\Core\Src\system_stm32f4xx.c.obj -c D:\STM32Project\LED_2_PWM\Core\Src\system_stm32f4xx.c
 
 CMakeFiles/LED_2_PWM.elf.dir/Core/Src/system_stm32f4xx.c.i: cmake_force
@@ -169,7 +183,7 @@ CMakeFiles/LED_2_PWM.elf.dir/Core/Src/system_stm32f4xx.c.s: cmake_force
 CMakeFiles/LED_2_PWM.elf.dir/Core/Src/tim.c.obj: CMakeFiles/LED_2_PWM.elf.dir/flags.make
 CMakeFiles/LED_2_PWM.elf.dir/Core/Src/tim.c.obj: D:/STM32Project/LED_2_PWM/Core/Src/tim.c
 CMakeFiles/LED_2_PWM.elf.dir/Core/Src/tim.c.obj: CMakeFiles/LED_2_PWM.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Project\LED_2_PWM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/LED_2_PWM.elf.dir/Core/Src/tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Project\LED_2_PWM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/LED_2_PWM.elf.dir/Core/Src/tim.c.obj"
 	D:\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LED_2_PWM.elf.dir/Core/Src/tim.c.obj -MF CMakeFiles\LED_2_PWM.elf.dir\Core\Src\tim.c.obj.d -o CMakeFiles\LED_2_PWM.elf.dir\Core\Src\tim.c.obj -c D:\STM32Project\LED_2_PWM\Core\Src\tim.c
 
 CMakeFiles/LED_2_PWM.elf.dir/Core/Src/tim.c.i: cmake_force
@@ -182,7 +196,7 @@ CMakeFiles/LED_2_PWM.elf.dir/Core/Src/tim.c.s: cmake_force
 
 CMakeFiles/LED_2_PWM.elf.dir/Core/Startup/startup_stm32f427iihx.s.obj: CMakeFiles/LED_2_PWM.elf.dir/flags.make
 CMakeFiles/LED_2_PWM.elf.dir/Core/Startup/startup_stm32f427iihx.s.obj: D:/STM32Project/LED_2_PWM/Core/Startup/startup_stm32f427iihx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Project\LED_2_PWM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building ASM object CMakeFiles/LED_2_PWM.elf.dir/Core/Startup/startup_stm32f427iihx.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Project\LED_2_PWM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building ASM object CMakeFiles/LED_2_PWM.elf.dir/Core/Startup/startup_stm32f427iihx.s.obj"
 	D:\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\LED_2_PWM.elf.dir\Core\Startup\startup_stm32f427iihx.s.obj -c D:\STM32Project\LED_2_PWM\Core\Startup\startup_stm32f427iihx.s
 
 CMakeFiles/LED_2_PWM.elf.dir/Core/Startup/startup_stm32f427iihx.s.i: cmake_force
@@ -196,7 +210,7 @@ CMakeFiles/LED_2_PWM.elf.dir/Core/Startup/startup_stm32f427iihx.s.s: cmake_force
 CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/LED_2_PWM.elf.dir/flags.make
 CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: D:/STM32Project/LED_2_PWM/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
 CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/LED_2_PWM.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Project\LED_2_PWM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Project\LED_2_PWM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
 	D:\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj -MF CMakeFiles\LED_2_PWM.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj.d -o CMakeFiles\LED_2_PWM.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj -c D:\STM32Project\LED_2_PWM\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c
 
 CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i: cmake_force
@@ -210,7 +224,7 @@ CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s:
 CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/LED_2_PWM.elf.dir/flags.make
 CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: D:/STM32Project/LED_2_PWM/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
 CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/LED_2_PWM.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Project\LED_2_PWM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Project\LED_2_PWM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
 	D:\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj -MF CMakeFiles\LED_2_PWM.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj.d -o CMakeFiles\LED_2_PWM.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj -c D:\STM32Project\LED_2_PWM\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c
 
 CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i: cmake_force
@@ -224,7 +238,7 @@ CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cort
 CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/LED_2_PWM.elf.dir/flags.make
 CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: D:/STM32Project/LED_2_PWM/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
 CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/LED_2_PWM.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Project\LED_2_PWM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Project\LED_2_PWM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
 	D:\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj -MF CMakeFiles\LED_2_PWM.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj.d -o CMakeFiles\LED_2_PWM.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj -c D:\STM32Project\LED_2_PWM\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c
 
 CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i: cmake_force
@@ -238,7 +252,7 @@ CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.
 CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/LED_2_PWM.elf.dir/flags.make
 CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: D:/STM32Project/LED_2_PWM/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
 CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/LED_2_PWM.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Project\LED_2_PWM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Project\LED_2_PWM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
 	D:\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj -MF CMakeFiles\LED_2_PWM.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj.d -o CMakeFiles\LED_2_PWM.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj -c D:\STM32Project\LED_2_PWM\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c
 
 CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i: cmake_force
@@ -252,7 +266,7 @@ CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_
 CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: CMakeFiles/LED_2_PWM.elf.dir/flags.make
 CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: D:/STM32Project/LED_2_PWM/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
 CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: CMakeFiles/LED_2_PWM.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Project\LED_2_PWM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Project\LED_2_PWM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
 	D:\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj -MF CMakeFiles\LED_2_PWM.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj.d -o CMakeFiles\LED_2_PWM.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj -c D:\STM32Project\LED_2_PWM\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c
 
 CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i: cmake_force
@@ -266,7 +280,7 @@ CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti
 CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/LED_2_PWM.elf.dir/flags.make
 CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: D:/STM32Project/LED_2_PWM/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
 CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/LED_2_PWM.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Project\LED_2_PWM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Project\LED_2_PWM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
 	D:\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj -MF CMakeFiles\LED_2_PWM.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj.d -o CMakeFiles\LED_2_PWM.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj -c D:\STM32Project\LED_2_PWM\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c
 
 CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i: cmake_force
@@ -280,7 +294,7 @@ CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flas
 CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/LED_2_PWM.elf.dir/flags.make
 CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: D:/STM32Project/LED_2_PWM/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
 CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/LED_2_PWM.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Project\LED_2_PWM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Project\LED_2_PWM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
 	D:\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj -MF CMakeFiles\LED_2_PWM.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj.d -o CMakeFiles\LED_2_PWM.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj -c D:\STM32Project\LED_2_PWM\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c
 
 CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i: cmake_force
@@ -294,7 +308,7 @@ CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flas
 CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/LED_2_PWM.elf.dir/flags.make
 CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: D:/STM32Project/LED_2_PWM/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
 CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/LED_2_PWM.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Project\LED_2_PWM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Project\LED_2_PWM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
 	D:\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj -MF CMakeFiles\LED_2_PWM.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj.d -o CMakeFiles\LED_2_PWM.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj -c D:\STM32Project\LED_2_PWM\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c
 
 CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i: cmake_force
@@ -308,7 +322,7 @@ CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flas
 CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/LED_2_PWM.elf.dir/flags.make
 CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: D:/STM32Project/LED_2_PWM/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
 CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/LED_2_PWM.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Project\LED_2_PWM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Project\LED_2_PWM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
 	D:\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj -MF CMakeFiles\LED_2_PWM.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj.d -o CMakeFiles\LED_2_PWM.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj -c D:\STM32Project\LED_2_PWM\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c
 
 CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i: cmake_force
@@ -322,7 +336,7 @@ CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio
 CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/LED_2_PWM.elf.dir/flags.make
 CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: D:/STM32Project/LED_2_PWM/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
 CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/LED_2_PWM.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Project\LED_2_PWM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Project\LED_2_PWM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
 	D:\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj -MF CMakeFiles\LED_2_PWM.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj.d -o CMakeFiles\LED_2_PWM.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj -c D:\STM32Project\LED_2_PWM\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c
 
 CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i: cmake_force
@@ -336,7 +350,7 @@ CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.
 CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/LED_2_PWM.elf.dir/flags.make
 CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: D:/STM32Project/LED_2_PWM/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
 CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/LED_2_PWM.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Project\LED_2_PWM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Project\LED_2_PWM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
 	D:\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj -MF CMakeFiles\LED_2_PWM.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj.d -o CMakeFiles\LED_2_PWM.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj -c D:\STM32Project\LED_2_PWM\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c
 
 CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i: cmake_force
@@ -350,7 +364,7 @@ CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_
 CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/LED_2_PWM.elf.dir/flags.make
 CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: D:/STM32Project/LED_2_PWM/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
 CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/LED_2_PWM.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Project\LED_2_PWM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Project\LED_2_PWM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
 	D:\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj -MF CMakeFiles\LED_2_PWM.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj.d -o CMakeFiles\LED_2_PWM.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj -c D:\STM32Project\LED_2_PWM\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c
 
 CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i: cmake_force
@@ -364,7 +378,7 @@ CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.
 CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/LED_2_PWM.elf.dir/flags.make
 CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: D:/STM32Project/LED_2_PWM/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
 CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/LED_2_PWM.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Project\LED_2_PWM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Project\LED_2_PWM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
 	D:\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj -MF CMakeFiles\LED_2_PWM.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj.d -o CMakeFiles\LED_2_PWM.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj -c D:\STM32Project\LED_2_PWM\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c
 
 CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i: cmake_force
@@ -378,7 +392,7 @@ CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_
 CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: CMakeFiles/LED_2_PWM.elf.dir/flags.make
 CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: D:/STM32Project/LED_2_PWM/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
 CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: CMakeFiles/LED_2_PWM.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Project\LED_2_PWM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Project\LED_2_PWM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
 	D:\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj -MF CMakeFiles\LED_2_PWM.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj.d -o CMakeFiles\LED_2_PWM.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj -c D:\STM32Project\LED_2_PWM\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c
 
 CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i: cmake_force
@@ -392,7 +406,7 @@ CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.
 CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: CMakeFiles/LED_2_PWM.elf.dir/flags.make
 CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: D:/STM32Project/LED_2_PWM/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
 CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: CMakeFiles/LED_2_PWM.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Project\LED_2_PWM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Project\LED_2_PWM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
 	D:\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj -MF CMakeFiles\LED_2_PWM.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj.d -o CMakeFiles\LED_2_PWM.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj -c D:\STM32Project\LED_2_PWM\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c
 
 CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i: cmake_force
@@ -403,22 +417,9 @@ CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s"
 	D:\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32Project\LED_2_PWM\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c -o CMakeFiles\LED_2_PWM.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.s
 
-CMakeFiles/LED_2_PWM.elf.dir/callback.cpp.obj: CMakeFiles/LED_2_PWM.elf.dir/flags.make
-CMakeFiles/LED_2_PWM.elf.dir/callback.cpp.obj: D:/STM32Project/LED_2_PWM/callback.cpp
-CMakeFiles/LED_2_PWM.elf.dir/callback.cpp.obj: CMakeFiles/LED_2_PWM.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Project\LED_2_PWM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/LED_2_PWM.elf.dir/callback.cpp.obj"
-	D:\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LED_2_PWM.elf.dir/callback.cpp.obj -MF CMakeFiles\LED_2_PWM.elf.dir\callback.cpp.obj.d -o CMakeFiles\LED_2_PWM.elf.dir\callback.cpp.obj -c D:\STM32Project\LED_2_PWM\callback.cpp
-
-CMakeFiles/LED_2_PWM.elf.dir/callback.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LED_2_PWM.elf.dir/callback.cpp.i"
-	D:\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\STM32Project\LED_2_PWM\callback.cpp > CMakeFiles\LED_2_PWM.elf.dir\callback.cpp.i
-
-CMakeFiles/LED_2_PWM.elf.dir/callback.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LED_2_PWM.elf.dir/callback.cpp.s"
-	D:\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\STM32Project\LED_2_PWM\callback.cpp -o CMakeFiles\LED_2_PWM.elf.dir\callback.cpp.s
-
 # Object files for target LED_2_PWM.elf
 LED_2_PWM_elf_OBJECTS = \
+"CMakeFiles/LED_2_PWM.elf.dir/Core/Src/exit_callback.cpp.obj" \
 "CMakeFiles/LED_2_PWM.elf.dir/Core/Src/gpio.c.obj" \
 "CMakeFiles/LED_2_PWM.elf.dir/Core/Src/main.c.obj" \
 "CMakeFiles/LED_2_PWM.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj" \
@@ -442,12 +443,12 @@ LED_2_PWM_elf_OBJECTS = \
 "CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj" \
 "CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj" \
 "CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj" \
-"CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj" \
-"CMakeFiles/LED_2_PWM.elf.dir/callback.cpp.obj"
+"CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
 
 # External object files for target LED_2_PWM.elf
 LED_2_PWM_elf_EXTERNAL_OBJECTS =
 
+LED_2_PWM.elf: CMakeFiles/LED_2_PWM.elf.dir/Core/Src/exit_callback.cpp.obj
 LED_2_PWM.elf: CMakeFiles/LED_2_PWM.elf.dir/Core/Src/gpio.c.obj
 LED_2_PWM.elf: CMakeFiles/LED_2_PWM.elf.dir/Core/Src/main.c.obj
 LED_2_PWM.elf: CMakeFiles/LED_2_PWM.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
@@ -472,7 +473,6 @@ LED_2_PWM.elf: CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm
 LED_2_PWM.elf: CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj
 LED_2_PWM.elf: CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
 LED_2_PWM.elf: CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
-LED_2_PWM.elf: CMakeFiles/LED_2_PWM.elf.dir/callback.cpp.obj
 LED_2_PWM.elf: CMakeFiles/LED_2_PWM.elf.dir/build.make
 LED_2_PWM.elf: CMakeFiles/LED_2_PWM.elf.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\STM32Project\LED_2_PWM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking CXX executable LED_2_PWM.elf"

@@ -1,6 +1,7 @@
 --cpu=Cortex-M4.fp.sp
 "led_2_pwm\startup_stm32f427xx.o"
 "led_2_pwm\callback.o"
+"led_2_pwm\exit_callback.o"
 "led_2_pwm\main.o"
 "led_2_pwm\gpio.o"
 "led_2_pwm\tim.o"
