@@ -128,6 +128,30 @@ LED_2_PWM.elf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LED_2_PWM.elf.dir\build.make CMakeFiles/LED_2_PWM.elf.dir/build
 .PHONY : LED_2_PWM.elf/fast
 
+Core/Src/exit_callback.obj: Core/Src/exit_callback.cpp.obj
+.PHONY : Core/Src/exit_callback.obj
+
+# target to build an object file
+Core/Src/exit_callback.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LED_2_PWM.elf.dir\build.make CMakeFiles/LED_2_PWM.elf.dir/Core/Src/exit_callback.cpp.obj
+.PHONY : Core/Src/exit_callback.cpp.obj
+
+Core/Src/exit_callback.i: Core/Src/exit_callback.cpp.i
+.PHONY : Core/Src/exit_callback.i
+
+# target to preprocess a source file
+Core/Src/exit_callback.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LED_2_PWM.elf.dir\build.make CMakeFiles/LED_2_PWM.elf.dir/Core/Src/exit_callback.cpp.i
+.PHONY : Core/Src/exit_callback.cpp.i
+
+Core/Src/exit_callback.s: Core/Src/exit_callback.cpp.s
+.PHONY : Core/Src/exit_callback.s
+
+# target to generate assembly for a file
+Core/Src/exit_callback.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LED_2_PWM.elf.dir\build.make CMakeFiles/LED_2_PWM.elf.dir/Core/Src/exit_callback.cpp.s
+.PHONY : Core/Src/exit_callback.cpp.s
+
 Core/Src/gpio.obj: Core/Src/gpio.c.obj
 .PHONY : Core/Src/gpio.obj
 
@@ -688,30 +712,6 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LED_2_PWM.elf.dir\build.make CMakeFiles/LED_2_PWM.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s
 
-callback.obj: callback.cpp.obj
-.PHONY : callback.obj
-
-# target to build an object file
-callback.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LED_2_PWM.elf.dir\build.make CMakeFiles/LED_2_PWM.elf.dir/callback.cpp.obj
-.PHONY : callback.cpp.obj
-
-callback.i: callback.cpp.i
-.PHONY : callback.i
-
-# target to preprocess a source file
-callback.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LED_2_PWM.elf.dir\build.make CMakeFiles/LED_2_PWM.elf.dir/callback.cpp.i
-.PHONY : callback.cpp.i
-
-callback.s: callback.cpp.s
-.PHONY : callback.s
-
-# target to generate assembly for a file
-callback.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LED_2_PWM.elf.dir\build.make CMakeFiles/LED_2_PWM.elf.dir/callback.cpp.s
-.PHONY : callback.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -721,6 +721,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... LED_2_PWM.elf
+	@echo ... Core/Src/exit_callback.obj
+	@echo ... Core/Src/exit_callback.i
+	@echo ... Core/Src/exit_callback.s
 	@echo ... Core/Src/gpio.obj
 	@echo ... Core/Src/gpio.i
 	@echo ... Core/Src/gpio.s
@@ -791,9 +794,6 @@ help:
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.obj
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.i
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.s
-	@echo ... callback.obj
-	@echo ... callback.i
-	@echo ... callback.s
 .PHONY : help
 
 
