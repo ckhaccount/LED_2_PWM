@@ -5,7 +5,7 @@
 #include "stm32f4xx.h"
 
 extern int PWM_FLAG=0;
-void HAL_TIM_PeriodElapsedCallback(uint16_t GPIO_PIN)
+void HAL_GPIO_EXTI_Callback(uint16_t GPIO_PIN)
 {
     if (GPIO_PIN == KEY_G_Pin)
     {
